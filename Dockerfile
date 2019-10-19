@@ -1,5 +1,6 @@
 FROM centos
 
+LABEL name="benchu1k/t1" version="1.0"
 MAINTAINER benchu1k <benchu1k@gmail.com>
 
 WORKDIR /root
