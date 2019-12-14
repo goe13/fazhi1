@@ -1,4 +1,4 @@
-FROM centos
+FROM centos:7
 
 LABEL maintainer="benchu1k" version="1.0"
 
@@ -13,7 +13,8 @@ RUN mkdir /home/www/LegalDailyCMS
 COPY ./package/pip.config /root/.pip/pip.config
 
 RUN yum install wget -y
-RUN wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+# RUN rm -f /etc/yum.repos.d/CentOS-Base.repo
+# RUN wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
 RUN yum upgrade -y
 RUN yum install -y epel-release
 RUN yum groupinstall "development tools" -y
