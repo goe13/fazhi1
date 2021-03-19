@@ -6,7 +6,7 @@ dicttoxml==1.7.4
 Django==2.1.5
 django-cors-headers==2.4.0
 django-crontab==0.7.1
-djangorestframework==3.9.0
+djangorestframework==3.11.2
 idna==2.8
 PyMySQL==0.9.3
 pytz==2018.9
