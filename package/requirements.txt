@@ -3,7 +3,7 @@ certifi==2018.11.29
 chardet==3.0.4
 cos-python-sdk-v5==1.6.5
 dicttoxml==1.7.4
-Django==2.1.5
+Django==2.2.24
 django-cors-headers==2.4.0
 django-crontab==0.7.1
 djangorestframework==3.9.0
